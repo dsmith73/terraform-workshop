@@ -95,6 +95,8 @@ Can you access the VM by SSH ?
   terraform help
   ```
 
+  ![](https://static1.squarespace.com/static/54bcbd06e4b060f2e987ebbe/t/56fea9a44d088ed7bb3334af/1459530161285/)
+
 </details>
 
 ### Step #8: With only 1 Terraform resource, create 42 droplets with the same config for both.
@@ -102,7 +104,7 @@ Can you access the VM by SSH ?
 <details>
   <summary>Hint:</summary>
 
-  ![](https://media.giphy.com/media/NK/giphy.gif)
+  ![](https://media.giphy.com/media/3ohs4rclkSSrNGSlFK/giphy.gif)
 
 </details>
 
