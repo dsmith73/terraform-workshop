@@ -68,7 +68,12 @@ Can you access the VM by SSH ?
 
 <details>
   <summary>Hint:</summary>
-  RTFM: https://www.terraform.io/docs/configuration/environment-variables.html
+
+  RTFM:
+
+  https://www.terraform.io/docs/configuration/environment-variables.html
+
+  ![](http://grammota.com/sites/default/files/2017-07/shto-takoe-rtfm-2.jpg)
 </details>
 
 🙏 Never ever commit auth token !! 🙏
@@ -77,11 +82,16 @@ Can you access the VM by SSH ?
 
 <details>
   <summary>Hint:</summary>
-  RTFM: https://www.terraform.io/docs/providers/do/r/droplet.html
+
+  RTFM:
+
+  https://www.terraform.io/docs/providers/do/r/droplet.html
 
   ```
   terraform output
   ```
+
+  ![](http://i0.kym-cdn.com/photos/images/original/000/131/662/22711800_646849b145.jpg)
 
 </details>
 
@@ -89,6 +99,7 @@ Can you access the VM by SSH ?
 
 <details>
   <summary>Hint:</summary>
+
   RTFM
 
   ```
@@ -104,7 +115,7 @@ Can you access the VM by SSH ?
 <details>
   <summary>Hint:</summary>
 
-  ![](https://media.giphy.com/media/3ohs4rclkSSrNGSlFK/giphy.gif)
+  ![](https://media.giphy.com/media/iM2zk4rboByQE/giphy.gif)
 
 </details>
 
