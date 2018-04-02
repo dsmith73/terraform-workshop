@@ -30,6 +30,7 @@ Great (awesome!) documentation available here: https://www.terraform.io/docs/pro
 
 <details>
   <summary>Hint:</summary>
+
   ```
   # first
   terraform init
@@ -37,6 +38,7 @@ Great (awesome!) documentation available here: https://www.terraform.io/docs/pro
   terraform plan
   terraform apply
   ```
+
 </details>
 
 Can you access the VM by SSH ?
@@ -45,10 +47,12 @@ Can you access the VM by SSH ?
 
 <details>
   <summary>Hint:</summary>
+
   ```
   terraform plan
   terraform apply
   ```
+
 </details>
 
 ### Step #3: Sorry, I was wrong: I need you to move the VM to London ;)
@@ -74,9 +78,11 @@ Can you access the VM by SSH ?
 <details>
   <summary>Hint:</summary>
   RTFM: https://www.terraform.io/docs/providers/do/r/droplet.html
+
   ```
   terraform output
   ```
+
 </details>
 
 ### Step #7: Destroy your instance from Terraform
@@ -84,16 +90,20 @@ Can you access the VM by SSH ?
 <details>
   <summary>Hint:</summary>
   RTFM
+
   ```
   terraform help
   ```
+
 </details>
 
 ### Step #8: With only 1 Terraform resource, create 42 droplets with the same config for both.
 
 <details>
   <summary>Hint:</summary>
+
   ![](https://media.giphy.com/media/NK/giphy.gif)
+
 </details>
 
 Output must display every ipv4.
@@ -136,7 +146,11 @@ Please output the load balancer ip.
 
 <details>
   <summary>Hint:</summary>
+
+  ```
   digitalocean_loadbalancer
+  ```
+
 </details>
 
 If you open http://<load-balancer-ip>:8080 and refresh many times, do you see the hostname changing ?
@@ -147,7 +161,11 @@ If you open http://<load-balancer-ip>:8080 and refresh many times, do you see th
 
 <details>
   <summary>Hint:</summary>
+
+  ```
   terraform graph --help
+  ```
+
   https://www.terraform.io/docs/commands/graph.html
 </details>
 
@@ -161,9 +179,16 @@ Please call your servers differently: web_prod_x and web_staging_x.
 
 <details>
   <summary>Hint:</summary>
+
+  ```
   terraform workspace --help
+  ```
+
+  ```
   and
   ${terraform.workspace} variable
+  ```
+
 </details>
 
 ### Step #42: Check in Digital Ocean console that you removed everything ;)
