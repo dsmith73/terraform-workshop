@@ -197,9 +197,10 @@ Please call your servers differently: web_prod_x and web_staging_x.
   terraform workspace --help
   ```
 
-  ```
   and
-  ${terraform.workspace} variable
+
+  ```
+  ${terraform.workspace}
   ```
 
 </details>
@@ -209,4 +210,5 @@ Please call your servers differently: web_prod_x and web_staging_x.
 💰💰💰💰💰
 
 I may upload a complete Terraform config after workshop.
+
 ...or maybe not ;)
