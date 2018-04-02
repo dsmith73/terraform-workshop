@@ -10,7 +10,7 @@ sudo mv terraform /usr/local/bin/
 
 Please create a Digital Ocean account (10$ free credit with this link: https://m.do.co/c/1670fd3e0af6).
 
-Create and upload an SSH key to Digital Ocean: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets
+Create and upload a SSH key to Digital Ocean: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets
 
 For the workshopt, you will need your SSH fingerprint:
 
@@ -107,12 +107,6 @@ The first droplet must be called "web-0" and the second "web-1".
 With Terraform, ask DO to run a Docker container after droplet boot:
 
 ```
-# ./user_data.txt
-runcmd:
-  - docker run --rm -it -p 8080:80 -h $(hostname) iadvize/hello-world
-```
-
-```
 resource "digitalocean_droplet" "webs" {
 
   ...
@@ -124,6 +118,7 @@ resource "digitalocean_droplet" "webs" {
   }
 
   ...
+
 }
 ```
 
@@ -174,3 +169,6 @@ Please call your servers differently: web_prod_x and web_staging_x.
 ### Step #42: Check in Digital Ocean console that you removed everything ;)
 
 💰💰💰💰💰
+
+I may upload a complete Terraform config after workshop.
+...or maybe not ;)
