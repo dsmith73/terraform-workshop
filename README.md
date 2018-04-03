@@ -24,7 +24,7 @@ Create a token for contacting API: https://cloud.digitalocean.com/settings/api/t
 
 Great (awesome!) documentation available here: https://www.terraform.io/docs/providers/index.html
 
-## Let's go
+## Tuto
 
 ### Step #1: Create a VM ("droplet") in NYC, with 512 MB of memory and based on debian
 
@@ -212,3 +212,22 @@ Please call your servers differently: web_prod_x and web_staging_x.
 I may upload a complete Terraform config after workshop.
 
 ...or maybe not ;)
+
+## What next ?
+
+### Terraform craziness
+
+What about terraforming in the same project:
+- 2 DO droplets (HA) + load balancer
+- a DNS zone on Cloudflare
+- a Heroku PostgreSQL
+- 2 DNS entries on Cloudflare pointing to LB (on DO) and PG (on Heroku)
+- creating a role and a database in the new PG instance
+
+### Immutable VM templates
+
+Take a look into Packer (from Hashicorp as well).
+
+### Immutable app
+
+Docker ?
