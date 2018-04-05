@@ -190,7 +190,7 @@ After that step, destroy VM and LB please.
 
 Don't duplicate resources !
 
-Please call your servers differently: web_prod_x and web_staging_x.
+Please call your servers differently: web_prod_1+web_prod_2 and web_staging_1+web_staging_2.
 
 <details>
   <summary>Hint:</summary>
