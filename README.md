@@ -205,6 +205,10 @@ Please call your servers differently: web_prod_x and web_staging_x.
 
 </details>
 
+### Step #14: I have multiple apps that need VM redundancy and 1 LB. Can you embbed your config into a generic Terraform module ?
+
+It would be great to be able to choose region, VM count and VM size from module arguments !
+
 ### Step #42: Check in Digital Ocean console that you removed everything ;)
 
 💰💰💰💰💰
@@ -212,6 +216,18 @@ Please call your servers differently: web_prod_x and web_staging_x.
 I may upload a complete Terraform config after workshop.
 
 ...or maybe not ;)
+
+## Tips
+
+Separating variables, providers, resources, outputs in different files is great !
+
+Example:
+- variables.tf  // convention
+- outputs.tf    // convention
+- providers.tf  // convention
+- instance.tf
+- subnet.tf
+- dns.tf
 
 ## What next ?
 
@@ -228,6 +244,6 @@ What about terraforming in the same project:
 
 Take a look into Packer (from Hashicorp as well).
 
-### Immutable app
+### Immutable apps
 
 Docker ?
