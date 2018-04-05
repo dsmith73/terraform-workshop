@@ -26,7 +26,9 @@ Great (awesome!) documentation available here: https://www.terraform.io/docs/pro
 
 ## Tuto
 
-### Step #1: Create a VM ("droplet") in NYC, with 512 MB of memory and based on debian
+### Step #1: With Terraform, create a VM ("droplet") in NYC, with 512 MB of memory and based on debian
+
+You need: # Terraform provider + 1 Terraform resource.
 
 <details>
   <summary>Hint:</summary>
