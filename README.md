@@ -149,7 +149,7 @@ resource "digitalocean_droplet" "webs" {
 
 The Docker container will expose the VM hostname on port 8080.
 
-Open http://<ip-web-0>:8080 and http://<ip-web-1>:8080 in your browser. You will see respective hostnames.
+Open http://[ip-web-0]:8080 and http://[ip-web-1]:8080 in your browser. You will see respective hostnames.
 
 ### Step #10: With a Terraform resource, add a load balancer in front of both servers (on port 8080).
 
